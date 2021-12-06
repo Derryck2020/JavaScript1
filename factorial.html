@@ -9,9 +9,10 @@
 <body>
     <script>
         function factorial(num){
-            let result = 1; // we initialize at 1, because the return values of the function will be equal or greater than one
-            for (i = num; i > 0; i--){ // we equate i = num so that we can decrement (i--) from that num
-                result *= i;
+            let result = 1; // we initialize at 1, because the return values of the function will be equal or greater than one.
+            for (i = num; i > 0; i--){ // we equate i = num so that we can decrement (i--) from that num.
+                console.log(i) // this is optional, we want to show the iteration of the i.
+                result *= i; // it will recalculate the result up to the value of num.
             }
             return result;
         }
